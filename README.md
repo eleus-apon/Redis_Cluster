@@ -39,6 +39,17 @@ Then restart the Redis service.
 ```
 sudo service redis-server restart
 ```
+or to start the server: `sudo service redis-server start`
+
+To check the redis server version: `redis-server -v` 
+![Capture_rv](https://user-images.githubusercontent.com/35254833/90972937-2a15e600-e53f-11ea-8b0c-12792a92fb88.PNG)
+
+and to confrim if the server is running or not: `redis-cli ping`. It should reply with `PONG`
+![Capture_rornot](https://user-images.githubusercontent.com/35254833/90972946-39952f00-e53f-11ea-8c38-13ba82121ca3.PNG)
+
+
+
+
 
 
 
